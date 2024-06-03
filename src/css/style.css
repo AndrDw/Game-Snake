@@ -1,0 +1,75 @@
+/* Global Clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.board {
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(15, 1fr) / repeat(15, 1fr);
+    /* ROW / COLUMN */
+    border: 1px solid red;
+}
+
+#title__1 {
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+#level,
+#score {
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+#score {
+    top: 6%;
+    font-size: 20px;
+}
+
+.board .food {
+    background: url('../assets/food.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.board .player {
+    background: url('../assets/player.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#console {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #777777;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+button {
+    width: 125px;
+    height: 50px;
+    margin: 3px 10px;
+}
