@@ -25,6 +25,6 @@ Simply clone this repository to your local machine and open the index.html file 
 <b>git clone https://github.com/AndrDw/Game-Snake</b>
 
 Preview
-
+<b>https://andrdw.github.io/Game-Snake/</b>
 Credits
 This game was created by AndrDw.
